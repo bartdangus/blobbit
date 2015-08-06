@@ -1,7 +1,13 @@
 module ApplicationHelper
 
 def my_name
+<<<<<<< HEAD
   @my_name = "Brett Thomas"
+=======
+  @my_name ="Brett Thomas"
+end
+
+>>>>>>> css
 end
 
 end
