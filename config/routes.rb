@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
-
+  get 'welcome/index' #http get routes/used to retrieve info identified by the url
+                      # without these the user is unable to see the html in view
   get 'welcome/about'
+  get 'welcome/contact'
+  root to: 'welcome#index' #root is just a hash that takes as an argument
+end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
